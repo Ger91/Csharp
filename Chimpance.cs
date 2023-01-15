@@ -13,9 +13,13 @@ namespace Herencia
             Console.WriteLine($"El nombre del chimpancé es {nombreGorila}");
         }
 
-        public void  Balancearse()
+        public void Balancearse()
         {
             Console.WriteLine("Me puedo desplazar balanceandome entre lianas");
+        }
+        public void ComidaFavorita()
+        {
+            Console.WriteLine("Me encanta comer platanos");
         }
     }
 }
